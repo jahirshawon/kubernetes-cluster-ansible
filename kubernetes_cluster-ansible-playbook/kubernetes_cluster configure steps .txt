@@ -30,9 +30,10 @@ Server Pre-Configure:
    ansible all -m ping           ( check rechability )
    
 3. clone ansible playbooks from git.
-   git clone git@github.com:JahirUddin92/kubernetes_cluster.git
+   https://github.com/jahirshawon/kubernetes-cluster-ansible.git
    
-4. enter directory > cd  kubernetes_cluster   
+4. enter directory > cd  kubernetes_cluster-ansible-playbook
+  
 
 5. execute below command for triggering ansible playbook 
    ansible-playbook prerequisites.yml      (configure prerequisites for prepairing nodes )
